@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(134, 152, 174);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid_2-1 {
+  display: grid;
+  gap: 3em;
+  grid-template-columns: 2fr 3fr;
+  grid-column: auto;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+
+.grid_1-1 {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  gap: 1em;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
